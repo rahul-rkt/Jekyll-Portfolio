@@ -1,0 +1,30 @@
+# Site settings
+title: randomCode
+email: rahul.rkt@gmail.com
+url: https://http://rahulthakur-.github.io/Jekyll
+description: "Personal Website of Rahul Thakur"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#666666'
+  links: '#2AAFFF'
+
+# Footer settings
+footer: randomCode by Rahul Thakur
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/_rahulthakur
+  - title: linkedin
+    url: https://www.linkedin.com/in/rahulkthakur
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/1127443/rahul-thakur?tab=profile
+  - title: bitbucket
+    url: https://bitbucket.org/_rahulthakur
+  - title: github
+    url: https://github.com/rahulthakur-
+
+# Build settings
+markdown: kramdown
+permalink: pretty
