@@ -6,11 +6,66 @@ share: false
 ---
 
 
-<article class="hentry">
+<article>
   <header>
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
   </header>
-  <div class="entry-content">
-      <p>Hello, I am currently <b>updating this page</b>, <i>try again tomorrow</i>.</p>
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
+  <div>
+      <p> Hello, I am currently <b>updating this website</b>, <i>I have not been able to post all the content yet</i>.</p>
+      <p> The following are the ones that have been updated till now</i>.</p>
+  </div>
+</article>
+
+<article>
+    <header>
+        <h2>About Me:</h2>
+    </header>
+    <div>
+        <p>Find more about me, <a href="{{ site.url }}/about" title="aboutMe">here</a>.<br /></p>
+        <p>Or find my cv, <a href="{{ site.url }}/about/cv.html" title="myCV">here</a>.<br /></p>
+        <p>Or find me at:
+            {% if site.owner.email %}
+                <a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
+            {% endif %}
+            {% if site.owner.twitter %}
+                <a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twinkerbell"></i> Twitter</a>
+            {% endif %}
+            {% if site.owner.facebook %}
+                <a href="https://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+            {% endif %}
+            {% if site.owner.google_plus %}
+                <a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
+            {% endif %}
+            {% if site.owner.linkedin %}
+                <a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-fw fa-linkerbell"></i> LinkedIn</a>
+            {% endif %}
+            {% if site.owner.github %}
+                <a href="https://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i> GitHub</a>
+            {% endif %}
+            {% if site.owner.bitbucket %}
+                <a href="https://bitbucket.org/{{ site.owner.github }}"><i class="fa fa-fw fa-bitbucket"></i> BitBucket</a>
+            {% endif %}
+            {% if site.owner.stackexchange %}
+                <a href="https://careers.stackoverflow.com/{{ site.owner.stackexchange }}"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
+            {% endif %}
+            {% if site.owner.instagram %}
+                <a href="https://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+            {% endif %}
+            {% if site.owner.flickr %}
+                <a href="https://www.flickr.com/photos/{{ site.owner.flickr }}"><i class="fa fa-fw fa-flickr"></i> Flickr</a>
+            {% endif %}
+            {% if site.owner.tumblr %}
+                <a href="https://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
+            {% endif %}
+        </p>
+    </div>
+</article>
+
+<article>
+    <header>
+        <h2>Project List:</h2>
+    </header>
+    <ul>
+        <li class="entry-title"><a href="{{ site.url }}/projects/ceb.html" title="CEB">CookEatBurp!</a></li>
+    </ul>
+</article>
