@@ -126,8 +126,8 @@
 		width: 100%;
 		//max-width: 200px;
 		max-width: 400px;
-		//overflow-y: auto;
-		max-height: 600px;
+	  	max-height: 600px;
+		overflow-y: auto;
 		opacity: 0;
 		pointer-events: none;
 		box-shadow: 0 12px 24px rgba($black,0.4);
@@ -157,6 +157,8 @@
 	.dl-submenu {
 		@include rounded(3px);
 		box-shadow: 0 12px 24px rgba($black,0.4);
+	  	max-height: 600px;
+	  	overflow-y: auto;
 		.btn {
 			margin-bottom: 0;
 		}
