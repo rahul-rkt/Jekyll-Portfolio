@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b66954-c5c7-489c-9af9-2a98434fb2b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/ceb.html" afterPath="$PROJECT_DIR$/_site/projects/ceb.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/cv.html" afterPath="$PROJECT_DIR$/_layouts/cv.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/cv.html" afterPath="$PROJECT_DIR$/_site/about/cv.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/posts/index.html" afterPath="$PROJECT_DIR$/_site/posts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/index.html" afterPath="$PROJECT_DIR$/_site/projects/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
     </list>
     <ignored path="Jekyll.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="cv.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/cv.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22" vertical-offset="0" max-vertical-offset="1694">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.4775" vertical-offset="762" max-vertical-offset="1980">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -72,8 +62,8 @@
         <option value="$PROJECT_DIR$/about/index.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/projects/ceb.html" />
-        <option value="$PROJECT_DIR$/_layouts/cv.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_layouts/cv.html" />
       </list>
     </option>
   </component>
@@ -974,39 +964,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/cv.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.43" vertical-offset="0" max-vertical-offset="1936">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state vertical-scroll-proportion="-0.8975" vertical-offset="894" max-vertical-offset="1694">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431857277000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="owner:" />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="gems:" />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="sass:" />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="kramdown:" />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="coderay:" />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="include:" />
+            <marker date="1431857320000" expanded="true" signature="-1:-1" placeholder="exclude:" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_layouts/cv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22" vertical-offset="0" max-vertical-offset="1694">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.4775" vertical-offset="762" max-vertical-offset="1980">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding />
         </state>
       </provider>
