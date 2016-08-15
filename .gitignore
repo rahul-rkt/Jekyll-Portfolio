@@ -1,0 +1,16 @@
+# Generated
+_site/
+
+# Cache
+.sass-cache
+
+# Themes
+Themes/
+
+# Others
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+Gemfile.lock
